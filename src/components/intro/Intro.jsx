@@ -26,15 +26,10 @@ const Intro = () => {
               <small>5+ Completed Projects</small>
             </article>
           </div>
-          <p>
-            1+ years experienced Front End Developer with hands-on experience in
-            identifying web-based user interactions along with designing and
-            implementing highly-responsive user interface components by
-            deploying React concepts. Proficient in translating designs and
-            wireframes into high-quality code, and writing application interface
-            code via JavaScript and React JS workflows. Adept at monitoring and
-            maintaining frontend performance and troubleshooting and debugging
-            the same to bolster overall performance.
+          <p>            
+            I'm Swarna Shikhar Das , student from India, learning Full Stack Web Development and doing Competitive Coding.
+            I enjoy turning complex problems into simple.
+            My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

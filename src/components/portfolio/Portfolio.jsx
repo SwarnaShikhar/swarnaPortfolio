@@ -3,8 +3,7 @@ import IMG0 from "../../assets/pwa.png";
 import IMG2 from "../../assets/advice.png";
 import IMG3 from "../../assets/tic.png";
 import IMG1 from "../../assets/shreya.png";
-// import IMG5 from "../../assets/Jokes Project.jpg";
-// import IMG6 from "../../assets/Project4.jpg";
+import IMG5 from "../../assets/camp.png";
 
 import "./portfolio.css";
 //Portfolio function
@@ -45,30 +44,20 @@ const Portfolio = () => {
       img: IMG3,
       description:
         "A Tic-tac-toe game where users can authenticate and play in real time",
-      technologies: "JavaScript | React | NodeJs | Express",
+      technologies: "JavaScript | React | NodeJs | Express ",
       link: "https://github.com/SwarnaShikhar/Multiplayer-tic-tac-toe",
       github: "https://github.com/SwarnaShikhar/Multiplayer-tic-tac-toe",
     },
-    // {
-    //   id: 5,
-    //   title: "Jokes Project with Typescript",
-    //   img: IMG5,
-    //   description:
-    //     "For when you need a fast funny joke, here are some short jokes to get anyone giggling.",
-    //   technologies: "Html | Styled-components | Typescript",
-    //   link: "https://jokes-project.vercel.app/",
-    //   github: "https://github.com/Rasif-Taghizada/Joke-App",
-    // },
-    // {
-    //   id: 6,
-    //   title: "Fs Poster Website",
-    //   img: IMG6,
-    //   description:
-    //     "Real-world group project which is still in progress and will provide educational platform for future young developers",
-    //   technologies: "Html | Scss | Javascript",
-    //   link: "https://fs-poster-project.netlify.app/",
-    //   github: "https://github.com/Rasif-Taghizada/Fs-Poster-Project",
-    // },
+    {
+      id: 5,
+      title: "YelpCamp Project",
+      img: IMG5,
+      description:
+        "A fully organised camping website",
+      technologies: "Html-CSS-Bootstrap | JavaScript-nodeJs-Express | MongoDb",
+      link: "https://github.com/SwarnaShikhar/camp",
+      github: "https://github.com/SwarnaShikhar/camp",
+    },
   ];
 
   return (

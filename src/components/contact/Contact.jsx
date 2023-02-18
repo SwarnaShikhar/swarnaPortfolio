@@ -20,17 +20,19 @@ const Contact = () => {
             <a href="mailto:swarnashikhar2002@gmail.com">Send a message</a>
           </article>
         </div>
-        <form>
+        <form
+          action='https://formspree.io/f/xgebkoeb'
+          method='POST'>
           <input
             type="text"
             placeholder="Your Full Name"
-            name="user_name"
+            name="name"git 
             required
           />
           <input
             type="text"
             placeholder="Your Email"
-            name="user_email"
+            name="email"
             required
           />
           <textarea

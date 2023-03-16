@@ -25,7 +25,7 @@ const Testimonials = () => {
       link: 'https://www.linkedin.com/in/sayantani-sarkar-026199200/',
       name: 'Sayantani Sarkar',
       role: 'Full-stack developer',
-      test: "It was a pleasure collaborating with Rasif on different projects. One of the things that I think is special about him is that he never settles, even after completing the projects he finds other resources and strengthens him knowledge. Collaborating with him is easy and comfortable, it's like working with someone you've known for a long period of time.",
+      test: "It was a pleasure collaborating with Swarna on different projects. One of the things that I think is special about him is that he never settles, even after completing the projects he finds other resources and strengthens him knowledge. Collaborating with him is easy and comfortable, it's like working with someone you've known for a long period of time.",
     }
   ];
   return (

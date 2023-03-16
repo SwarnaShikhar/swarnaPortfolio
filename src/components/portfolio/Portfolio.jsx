@@ -45,7 +45,7 @@ const Portfolio = () => {
       description:
         "A Tic-tac-toe game where users can authenticate and play in real time",
       technologies: "JavaScript | React | NodeJs | Express ",
-      link: "https://github.com/SwarnaShikhar/Multiplayer-tic-tac-toe",
+      link: "https://storied-seahorse-ca1509.netlify.app/",
       github: "https://github.com/SwarnaShikhar/Multiplayer-tic-tac-toe",
     },
     {
@@ -55,7 +55,7 @@ const Portfolio = () => {
       description:
         "A fully organised camping website",
       technologies: "Html-CSS-Bootstrap | JavaScript-nodeJs-Express | MongoDb",
-      link: "https://github.com/SwarnaShikhar/camp",
+      link: "https://storied-seahorse-ca1509.netlify.app/",
       github: "https://github.com/SwarnaShikhar/camp",
     },
   ];

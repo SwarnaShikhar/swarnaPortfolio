@@ -1,5 +1,7 @@
 import React from 'react';
-import { BsFillPatchCheckFill } from 'react-icons/bs';
+import { AiFillHtml5 } from "react-icons/ai";
+import { DiCss3Full,DiJavascript,DiReact,DiNodejsSmall,DiBootstrap,DiMysql } from "react-icons/di";
+import { FaJava } from "react-icons/fa";
 import './experience.css';
 
 const Experience = () => {
@@ -12,36 +14,36 @@ const Experience = () => {
           <h3>Web Development</h3>
           <div className="experience__content">
           <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
+              <AiFillHtml5 className="experience__details-icon" />
               <h4>HTML</h4>
             </article>
             <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
+              <DiCss3Full className="experience__details-icon" />
               <h4>CSS</h4>
             </article>
             <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
+              <DiJavascript className="experience__details-icon" />
               <h4>JavaScript</h4>
             </article>
             <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
+              <DiReact className="experience__details-icon" />
               <h4>React</h4>
             </article>
             <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
+              <DiNodejsSmall className="experience__details-icon" />
               <h4>NodeJs</h4>
             </article>
             <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
+              <FaJava className="experience__details-icon" />
               <h4>Java</h4>
             </article>
             <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
+              <DiBootstrap className="experience__details-icon" />
               <h4>Bootstrap</h4>
             </article>
             <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>WordPress</h4>
+              <DiMysql className="experience__details-icon" />
+              <h4>SQL</h4>
             </article>
           </div>
         </div>

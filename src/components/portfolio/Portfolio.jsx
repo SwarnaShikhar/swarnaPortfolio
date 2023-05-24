@@ -4,20 +4,31 @@ import IMG2 from "../../assets/advice.png";
 import IMG3 from "../../assets/tic.png";
 import IMG1 from "../../assets/shreya.png";
 import IMG5 from "../../assets/camp.png";
+import IMG6 from "../../assets/location.png"
 
 import "./portfolio.css";
 //Portfolio function
 const Portfolio = () => {
   const soloProjects = [
     {
+      id: 6,
+      title: "Location Finder",
+      img: IMG6,
+      description:
+        "Search and Track Locations",
+      technologies: "MapBox | Html-CSS-Javacript",
+      link: "https://location-check.netlify.app/",
+      github: "https://github.com/SwarnaShikhar/Location-Finder",
+    },
+    {
       id: 1,
       title: "Shreya's Portfolio",
       img: IMG1,
       description:
-        "Made a react based portfolio from scratch for my client",
-      technologies: "React | Bootstrap",
+        "Made a pure Javascript based portfolio from scratch for my client",
+      technologies: "Javascript | jquery",
       link: "https://shreyaroy.works/",
-      github: "https://github.com/SwarnaShikhar/ShreyaPortfolio",
+      github: "https://github.com/SwarnaShikhar/shreya-again",
     },
     {
       id: 2,
@@ -57,7 +68,7 @@ const Portfolio = () => {
       technologies: "Html-CSS-Bootstrap | JavaScript-nodeJs-Express | MongoDb",
       link: "https://storied-seahorse-ca1509.netlify.app/",
       github: "https://github.com/SwarnaShikhar/camp",
-    },
+    }
   ];
 
   return (

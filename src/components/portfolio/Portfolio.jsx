@@ -20,16 +20,16 @@ const Portfolio = () => {
       link: "https://location-check.netlify.app/",
       github: "https://github.com/SwarnaShikhar/Location-Finder",
     },
-    {
-      id: 1,
-      title: "Shreya's Portfolio",
-      img: IMG1,
-      description:
-        "Made a pure Javascript based portfolio from scratch for my client",
-      technologies: "Javascript | jquery",
-      link: "https://shreyaroy.works/",
-      github: "https://github.com/SwarnaShikhar/shreya-again",
-    },
+//     {
+//       id: 1,
+//       title: "Shreya's Portfolio",
+//       img: IMG1,
+//       description:
+//         "Made a pure Javascript based portfolio from scratch for my client",
+//       technologies: "Javascript | jquery",
+//       link: "https://shreyaroy.works/",
+//       github: "https://github.com/SwarnaShikhar/shreya-again",
+//     },
     {
       id: 2,
       title: "PWA Weather Report app",

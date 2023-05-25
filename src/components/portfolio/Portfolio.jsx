@@ -2,7 +2,7 @@ import React from "react";
 import IMG0 from "../../assets/pwa.png";
 import IMG2 from "../../assets/advice.png";
 import IMG3 from "../../assets/tic.png";
-import IMG1 from "../../assets/shreya.png";
+// import IMG1 from "../../assets/shreya.png";
 import IMG5 from "../../assets/camp.png";
 import IMG6 from "../../assets/location.png"
 

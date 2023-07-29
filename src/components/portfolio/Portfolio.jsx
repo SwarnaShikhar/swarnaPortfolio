@@ -2,16 +2,19 @@ import React from "react";
 import IMG0 from "../../assets/pwa.png";
 import IMG2 from "../../assets/advice.png";
 import IMG3 from "../../assets/tic.png";
-// import IMG1 from "../../assets/shreya.png";
+import IMG1 from "../../assets/shreya.png";
 import IMG5 from "../../assets/camp.png";
 import IMG6 from "../../assets/location.png"
+import IMG7 from "../../assets/moto.png"
+import IMG8 from "../../assets/wordp.png"
+import IMG9 from "../../assets/voting.png"
 
 import "./portfolio.css";
 //Portfolio function
 const Portfolio = () => {
   const soloProjects = [
     {
-      id: 6,
+      id: 7,
       title: "Location Finder",
       img: IMG6,
       description:
@@ -20,16 +23,6 @@ const Portfolio = () => {
       link: "https://location-check.netlify.app/",
       github: "https://github.com/SwarnaShikhar/Location-Finder",
     },
-//     {
-//       id: 1,
-//       title: "Shreya's Portfolio",
-//       img: IMG1,
-//       description:
-//         "Made a pure Javascript based portfolio from scratch for my client",
-//       technologies: "Javascript | jquery",
-//       link: "https://shreyaroy.works/",
-//       github: "https://github.com/SwarnaShikhar/shreya-again",
-//     },
     {
       id: 2,
       title: "PWA Weather Report app",
@@ -50,7 +43,25 @@ const Portfolio = () => {
       github: "https://github.com/SwarnaShikhar/golden-advice",
     },
     {
-      id: 4,
+      id: 8,
+      title: "Voting App",
+      img: IMG9,
+      description: "A simple Online Voting App",
+      technologies: "PHP | MySQL | HTML | CSS",
+      link: "http://phpvoting.infinityfreeapp.com/",
+      github: "https://github.com/SwarnaShikhar/voting-app",
+    },
+    {
+      id: 5,
+      title: "MOTO-API",
+      img: IMG7,
+      description: "Gives you information about bikes accross India",
+      technologies: "JavaScript | NodeJs | Express | MongoDb",
+      link: "https://real-lime-hare-tie.cyclic.app/api/products",
+      github: "https://github.com/SwarnaShikhar/MOTO-API",
+    },
+    {
+      id: 5,
       title: "Multiplayer Tic-Tac-Toe Game",
       img: IMG3,
       description:
@@ -60,7 +71,7 @@ const Portfolio = () => {
       github: "https://github.com/SwarnaShikhar/Multiplayer-tic-tac-toe",
     },
     {
-      id: 5,
+      id: 6,
       title: "YelpCamp Project",
       img: IMG5,
       description:
@@ -68,7 +79,26 @@ const Portfolio = () => {
       technologies: "Html-CSS-Bootstrap | JavaScript-nodeJs-Express | MongoDb",
       link: "https://storied-seahorse-ca1509.netlify.app/",
       github: "https://github.com/SwarnaShikhar/camp",
-    }
+    },
+    {
+      id: 1,
+      title: "Client's Portfolio",
+      img: IMG1,
+      description:
+        "Made a pure Javascript based portfolio from scratch for my client",
+      technologies: "Javascript | jquery",
+      link: "https://shreyaroy.works/",
+      github: "https://github.com/SwarnaShikhar/shreya-again",
+    },
+    {
+      id: 4,
+      title: "WordPress Website",
+      img: IMG8,
+      description: "A Wordpress website ",
+      technologies: "Wordpress | Elementor | Phlox",
+      link: "http://swarnashikhardas.great-site.net/",
+      // github: "https://github.com/SwarnaShikhar/golden-advice",
+    },
   ];
 
   return (

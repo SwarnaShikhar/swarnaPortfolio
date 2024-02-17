@@ -1,13 +1,9 @@
 import React from "react";
 import IMG0 from "../../assets/pwa.png";
 import IMG2 from "../../assets/advice.png";
-import IMG3 from "../../assets/tic.png";
 import IMG1 from "../../assets/shreya.png";
-import IMG5 from "../../assets/camp.png";
 import IMG6 from "../../assets/location.png"
 import IMG7 from "../../assets/moto.png"
-import IMG8 from "../../assets/wordp.png"
-import IMG9 from "../../assets/voting.png"
 import IMG10 from "../../assets/airbnb.png"
 
 import "./portfolio.css";
@@ -71,35 +67,6 @@ const Portfolio = () => {
       link: "https://golden-advice.netlify.app/",
       github: "https://github.com/SwarnaShikhar/golden-advice",
     },
-    // {
-    //   id: 8,
-    //   title: "Voting App",
-    //   img: IMG9,
-    //   description: "A simple Online Voting App",
-    //   technologies: "PHP | MySQL | HTML | CSS",
-    //   link: "http://phpvoting.infinityfreeapp.com/",
-    //   github: "https://github.com/SwarnaShikhar/voting-app",
-    // },
-    // {
-    //   id: 5,
-    //   title: "Multiplayer Tic-Tac-Toe Game",
-    //   img: IMG3,
-    //   description:
-    //     "A Tic-tac-toe game where users can authenticate and play in real time",
-    //   technologies: "JavaScript | React | NodeJs | Express ",
-    //   link: "https://storied-seahorse-ca1509.netlify.app/",
-    //   github: "https://github.com/SwarnaShikhar/Multiplayer-tic-tac-toe",
-    // },
-    // {
-    //   id: 6,
-    //   title: "YelpCamp Project",
-    //   img: IMG5,
-    //   description:
-    //     "A fully organised camping website",
-    //   technologies: "Html-CSS-Bootstrap | JavaScript-nodeJs-Express | MongoDb",
-    //   link: "https://storied-seahorse-ca1509.netlify.app/",
-    //   github: "https://github.com/SwarnaShikhar/camp",
-    // },
   ];
 
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import { AiFillHtml5 } from "react-icons/ai";
-import { DiCss3Full, DiJavascript, DiReact, DiNodejsSmall, DiBootstrap, DiMysql, DiMongodb } from "react-icons/di";
-import { FaJava, FaPhp, FaWordpress } from "react-icons/fa";
+import { DiCss3Full, DiJavascript, DiReact, DiNodejsSmall, DiBootstrap, DiMongodb } from "react-icons/di";
+import { FaJava } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiExpress, SiTypescript, SiPrisma } from "react-icons/si";
 import './experience.css';

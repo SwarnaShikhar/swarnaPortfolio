@@ -8,11 +8,21 @@ import IMG6 from "../../assets/location.png"
 import IMG7 from "../../assets/moto.png"
 import IMG8 from "../../assets/wordp.png"
 import IMG9 from "../../assets/voting.png"
+import IMG10 from "../../assets/airbnb.png"
 
 import "./portfolio.css";
 //Portfolio function
 const Portfolio = () => {
   const soloProjects = [
+    {
+      id: 4,
+      title: "Airbnb Clone",
+      img: IMG10,
+      description: "A NextJs Airbnb clone",
+      technologies: "NextJs | TypeScript | Prisma | MongoDb ",
+      link: "https://booker-blue.vercel.app/",
+      github: "https://github.com/SwarnaShikhar/airbnb-clone",
+    },
     {
       id: 7,
       title: "Location Finder",
@@ -22,6 +32,25 @@ const Portfolio = () => {
       technologies: "MapBox | Html-CSS-Javacript",
       link: "https://location-check.netlify.app/",
       github: "https://github.com/SwarnaShikhar/Location-Finder",
+    },
+    {
+      id: 5,
+      title: "MOTO-API",
+      img: IMG7,
+      description: "Gives you information about bikes accross India",
+      technologies: "JavaScript | NodeJs | Express | MongoDb",
+      link: "https://real-lime-hare-tie.cyclic.app/api/products",
+      github: "https://github.com/SwarnaShikhar/MOTO-API",
+    },
+    {
+      id: 1,
+      title: "Client's Portfolio",
+      img: IMG1,
+      description:
+        "Made a pure Javascript based portfolio from scratch for my client",
+      technologies: "Javascript | jquery",
+      link: "https://shreyaroy.works/",
+      github: "https://github.com/SwarnaShikhar/shreya-again",
     },
     {
       id: 2,
@@ -42,63 +71,35 @@ const Portfolio = () => {
       link: "https://golden-advice.netlify.app/",
       github: "https://github.com/SwarnaShikhar/golden-advice",
     },
-    {
-      id: 8,
-      title: "Voting App",
-      img: IMG9,
-      description: "A simple Online Voting App",
-      technologies: "PHP | MySQL | HTML | CSS",
-      link: "http://phpvoting.infinityfreeapp.com/",
-      github: "https://github.com/SwarnaShikhar/voting-app",
-    },
-    {
-      id: 5,
-      title: "MOTO-API",
-      img: IMG7,
-      description: "Gives you information about bikes accross India",
-      technologies: "JavaScript | NodeJs | Express | MongoDb",
-      link: "https://real-lime-hare-tie.cyclic.app/api/products",
-      github: "https://github.com/SwarnaShikhar/MOTO-API",
-    },
-    {
-      id: 5,
-      title: "Multiplayer Tic-Tac-Toe Game",
-      img: IMG3,
-      description:
-        "A Tic-tac-toe game where users can authenticate and play in real time",
-      technologies: "JavaScript | React | NodeJs | Express ",
-      link: "https://storied-seahorse-ca1509.netlify.app/",
-      github: "https://github.com/SwarnaShikhar/Multiplayer-tic-tac-toe",
-    },
-    {
-      id: 6,
-      title: "YelpCamp Project",
-      img: IMG5,
-      description:
-        "A fully organised camping website",
-      technologies: "Html-CSS-Bootstrap | JavaScript-nodeJs-Express | MongoDb",
-      link: "https://storied-seahorse-ca1509.netlify.app/",
-      github: "https://github.com/SwarnaShikhar/camp",
-    },
-    {
-      id: 1,
-      title: "Client's Portfolio",
-      img: IMG1,
-      description:
-        "Made a pure Javascript based portfolio from scratch for my client",
-      technologies: "Javascript | jquery",
-      link: "https://shreyaroy.works/",
-      github: "https://github.com/SwarnaShikhar/shreya-again",
-    },
-    {
-      id: 4,
-      title: "WordPress Website",
-      img: IMG8,
-      description: "A Wordpress website ",
-      technologies: "Wordpress | Elementor | Phlox",
-      link: "http://swarnashikhardas.great-site.net/",
-      // github: "https://github.com/SwarnaShikhar/golden-advice",
-    },
+    // {
+    //   id: 8,
+    //   title: "Voting App",
+    //   img: IMG9,
+    //   description: "A simple Online Voting App",
+    //   technologies: "PHP | MySQL | HTML | CSS",
+    //   link: "http://phpvoting.infinityfreeapp.com/",
+    //   github: "https://github.com/SwarnaShikhar/voting-app",
+    // },
+    // {
+    //   id: 5,
+    //   title: "Multiplayer Tic-Tac-Toe Game",
+    //   img: IMG3,
+    //   description:
+    //     "A Tic-tac-toe game where users can authenticate and play in real time",
+    //   technologies: "JavaScript | React | NodeJs | Express ",
+    //   link: "https://storied-seahorse-ca1509.netlify.app/",
+    //   github: "https://github.com/SwarnaShikhar/Multiplayer-tic-tac-toe",
+    // },
+    // {
+    //   id: 6,
+    //   title: "YelpCamp Project",
+    //   img: IMG5,
+    //   description:
+    //     "A fully organised camping website",
+    //   technologies: "Html-CSS-Bootstrap | JavaScript-nodeJs-Express | MongoDb",
+    //   link: "https://storied-seahorse-ca1509.netlify.app/",
+    //   github: "https://github.com/SwarnaShikhar/camp",
+    // },
   ];
 
   return (

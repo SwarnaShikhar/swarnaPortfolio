@@ -1,8 +1,9 @@
 import React from 'react';
 import { AiFillHtml5 } from "react-icons/ai";
-import { DiCss3Full,DiJavascript,DiReact,DiNodejsSmall,DiBootstrap,DiMysql,DiMongodb } from "react-icons/di";
+import { DiCss3Full, DiJavascript, DiReact, DiNodejsSmall, DiBootstrap, DiMysql, DiMongodb } from "react-icons/di";
 import { FaJava, FaPhp, FaWordpress } from "react-icons/fa";
-import { SiExpress } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
+import { SiExpress, SiTypescript, SiPrisma } from "react-icons/si";
 import './experience.css';
 
 const Experience = () => {
@@ -14,33 +15,29 @@ const Experience = () => {
         <div className="experience__frontend">
           <h3>Web Development</h3>
           <div className="experience__content">
-          <article className="experience__details">
-              <FaJava className="experience__details-icon" />
-              <h4>Java</h4>
-            </article>
-            <article className="experience__details">
-              <DiNodejsSmall className="experience__details-icon" />
-              <h4>NodeJs</h4>
-            </article>
-            <article className="experience__details">
-              < FaPhp className="experience__details-icon" />
-              <h4>PHP</h4>
-            </article>
-            <article className="experience__details">
-              < FaWordpress className="experience__details-icon" />
-              <h4>WordPress</h4>
-            </article>
             <article className="experience__details">
               <DiJavascript className="experience__details-icon" />
               <h4>JavaScript</h4>
+            </article>
+            <article className="experience__details">
+              < SiTypescript className="experience__details-icon" />
+              <h4>TypeScript</h4>
             </article>
             <article className="experience__details">
               <DiReact className="experience__details-icon" />
               <h4>React</h4>
             </article>
             <article className="experience__details">
-              <DiMysql className="experience__details-icon" />
-              <h4>MySQL</h4>
+              < TbBrandNextjs className="experience__details-icon" />
+              <h4>NextJs</h4>
+            </article>
+            <article className="experience__details">
+              <DiNodejsSmall className="experience__details-icon" />
+              <h4>NodeJs</h4>
+            </article>
+            <article className="experience__details">
+              <SiPrisma className="experience__details-icon" />
+              <h4>Prisma</h4>
             </article>
             <article className="experience__details">
               <DiMongodb className="experience__details-icon" />
@@ -50,7 +47,11 @@ const Experience = () => {
               < SiExpress className="experience__details-icon" />
               <h4>Express</h4>
             </article>
-          <article className="experience__details">
+            <article className="experience__details">
+              <FaJava className="experience__details-icon" />
+              <h4>Java</h4>
+            </article>
+            <article className="experience__details">
               <AiFillHtml5 className="experience__details-icon" />
               <h4>HTML</h4>
             </article>
